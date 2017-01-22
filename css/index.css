@@ -1,25 +1,19 @@
-.__main-title {
-    font-family: 'Overpass Mono', monospace !important;
-    font-size: 4rem !important;
-    margin-top: 4rem !important;
-    margin-bottom: 4rem !important;
+#splash {
+    margin-bottom: 4rem;
 }
 
-body {
-    background: #f1f1f1 !important;
+#results {
+    display: none;
+    margin-bottom: 4rem;
 }
 
-footer {
-    width: 100%;
-    position: fixed;
-    margin-top: 3rem;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    font-family: 'Overpass Mono', monospace !important;
-    background: #fff101;
+.js-emojis-trigger {
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
-footer a {
-    color:#4f504f;
+.js-emojis-trigger:hover {
+    -webkit-transform: scale(2);
+    transform: scale(2);
 }
